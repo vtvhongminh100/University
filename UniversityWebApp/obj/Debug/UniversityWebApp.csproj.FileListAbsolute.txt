@@ -1,0 +1,209 @@
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\ApplicationInsights.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.Web.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Model.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\WebGrease.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Model.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\Microsoft.AI.Web.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\obj\Debug\UniversityWebApp.csproj.CoreCompileInputs.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Net.Http.Formatting.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\System.Net.Http.Formatting.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\EntityFramework.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\EntityFramework.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\obj\Debug\UniversityWebApp.csproj.CoreCompileInputs.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\ApplicationInsights.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\EntityFramework.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.Web.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Model.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Net.Http.Formatting.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\WebGrease.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Model.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\EntityFramework.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Net.Http.Formatting.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\Microsoft.AI.Web.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityDao.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityDao.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver2\UniversityWebApp\bin\UniversityDao.dll.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\ApplicationInsights.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\EntityFramework.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.Web.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Model.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Net.Http.Formatting.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityDao.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\WebGrease.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Model.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityDao.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\UniversityDao.dll.config
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\EntityFramework.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Net.Http.Formatting.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\bin\Microsoft.AI.Web.xml
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\obj\Debug\UniversityWebApp.csproj.CoreCompileInputs.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\ApplicationInsights.config
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityWebApp.dll.config
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityWebApp.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityWebApp.pdb
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Antlr3.Runtime.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\EntityFramework.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\EntityFramework.SqlServer.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.Web.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.ApplicationInsights.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Model.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Newtonsoft.Json.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Net.Http.Formatting.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Helpers.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Mvc.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Optimization.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Razor.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityDao.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\WebGrease.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Model.pdb
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityDao.pdb
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\UniversityDao.dll.config
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\EntityFramework.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\EntityFramework.SqlServer.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Newtonsoft.Json.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Net.Http.Formatting.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Helpers.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Mvc.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Optimization.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.Razor.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Antlr3.Runtime.pdb
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.ApplicationInsights.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\bin\Microsoft.AI.Web.xml
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\obj\Debug\UniversityWebApp.csprojResolveAssemblyReference.cache
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\obj\Debug\UniversityWebApp.csproj.CoreCompileInputs.cache
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\obj\Debug\UniversityWebApp.dll
+C:\Users\HM\Desktop\New folder\University\UniversityWebApp\obj\Debug\UniversityWebApp.pdb
