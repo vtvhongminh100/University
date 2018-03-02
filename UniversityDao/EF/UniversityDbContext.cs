@@ -16,6 +16,7 @@ namespace UniversityDao.EF
         public virtual DbSet<CategoryGroupIdea> CategoryGroupIdeas { get; set; }
         public virtual DbSet<Idea> Ideas { get; set; }
         public virtual DbSet<IdeaCategory> IdeaCategories { get; set; }
+        public virtual DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

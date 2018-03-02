@@ -1,9 +1,9 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity.Spatial;
+using System.Web.Mvc;
 
 namespace UniversityDao.EF
 {
@@ -16,6 +16,7 @@ namespace UniversityDao.EF
         public int IdeaID { get; set; }
 
         [StringLength(500)]
+        [AllowHtml]
         public string Description { get; set; }
 
         [StringLength(20)]
