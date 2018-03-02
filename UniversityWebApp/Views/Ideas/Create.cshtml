@@ -1,0 +1,57 @@
+﻿@model UniversityDao.EF.Idea
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+        <script src="~/CustomStyle/ckeditor/ckeditor.js"></script>
+        <div class="container form-horizontal" style="margin-top: 100px">
+            <h4>Create Idea</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.Label("Idea Title", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.IdeaDescription, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.IdeaDescription, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Content", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.TextAreaFor(model => model.IdeaContent, new { @class = "ckeditor" })
+                    <script>CKEDITOR.replace('IdeaContent');</script>
+                    @Html.ValidationMessageFor(model => model.IdeaContent, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Category", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownListFor(model => model.IdeaCategory, new SelectList(ViewBag.ListCategory, "IdeaCategoryID", "CategoryName"))
+                    @Html.ValidationMessageFor(model => model.IdeaCategory, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.Label("Closed Date (YYYY-MM-DD)", htmlAttributes: new { @class = "control-label col-md-4" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ClosedDate, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ClosedDate, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+}

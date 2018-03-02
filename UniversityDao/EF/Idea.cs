@@ -5,6 +5,7 @@ namespace UniversityDao.EF
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
+    using System.Web.Mvc;
 
     [Table("Idea")]
     public partial class Idea
@@ -12,8 +13,12 @@ namespace UniversityDao.EF
         public int IdeaID { get; set; }
 
         [Column(TypeName = "ntext")]
+        [Required]
+        [StringLength(20)]
+        [AllowHtml]
         public string IdeaContent { get; set; }
 
+        [Required]
         [StringLength(500)]
         public string IdeaDescription { get; set; }
 
@@ -34,6 +39,7 @@ namespace UniversityDao.EF
         [StringLength(250)]
         public string ModifiedBy { get; set; }
 
+        [Required]
         public DateTime? ClosedDate { get; set; }
 
         public bool? IdeaStatus { get; set; }
