@@ -4,54 +4,177 @@
     ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
+    #rules {
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    overflow: auto;
+    padding: 10px;
+    border: solid 1px rgb(139, 139, 139);
+</style>
 
-
-@using (Html.BeginForm()) 
-{
+@using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
-        <script src="~/CustomStyle/ckeditor/ckeditor.js"></script>
-        <div class="container form-horizontal" style="margin-top: 100px">
-            <h4>Create Idea</h4>
-            <hr />
-            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <script src="~/CustomStyle/ckeditor/ckeditor.js"></script>
+    <div class="container form-horizontal" style="margin-top: 100px">
+        <h4>Create Idea</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-            <div class="form-group">
-                @Html.Label("Idea Title", htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.IdeaDescription, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.IdeaDescription, "", new { @class = "text-danger" })
-                </div>
-            </div>
-
-            <div class="form-group">
-                @Html.Label("Content", htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.TextAreaFor(model => model.IdeaContent, new { @class = "ckeditor" })
-                    <script>CKEDITOR.replace('IdeaContent');</script>
-                    @Html.ValidationMessageFor(model => model.IdeaContent, "", new { @class = "text-danger" })
-                </div>
-            </div>
-
-            <div class="form-group">
-                @Html.Label("Category", htmlAttributes: new { @class = "control-label col-md-2" })
-                <div class="col-md-10">
-                    @Html.DropDownListFor(model => model.IdeaCategory, new SelectList(ViewBag.ListCategory, "IdeaCategoryID", "CategoryName"))
-                    @Html.ValidationMessageFor(model => model.IdeaCategory, "", new { @class = "text-danger" })
-                </div>
-            </div>
-
-            <div class="form-group">
-                @Html.Label("Closed Date (YYYY-MM-DD)", htmlAttributes: new { @class = "control-label col-md-4" })
-                <div class="col-md-10">
-                    @Html.EditorFor(model => model.ClosedDate, new { htmlAttributes = new { @class = "form-control" } })
-                    @Html.ValidationMessageFor(model => model.ClosedDate, "", new { @class = "text-danger" })
-                </div>
-            </div>
-
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" value="Create" class="btn btn-default" />
-                </div>
+        <div class="form-group">
+            @Html.Label("Idea Title", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.IdeaDescription, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.IdeaDescription, "", new { @class = "text-danger" })
             </div>
         </div>
+
+        <div class="form-group">
+            @Html.Label("Content", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.IdeaContent, new { @class = "ckeditor" })
+                <script>CKEDITOR.replace('IdeaContent');</script>
+                @Html.ValidationMessageFor(model => model.IdeaContent, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Category", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.IdeaCategory, new SelectList(ViewBag.ListCategory, "IdeaCategoryID", "CategoryName"))
+                @Html.ValidationMessageFor(model => model.IdeaCategory, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Closed Date (YYYY-MM-DD)", htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ClosedDate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ClosedDate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                <p class="label">In order to proceed, you must agree with the following rules:</p>
+                <div id="rules">
+                    <p><strong>Forum Rules</strong></p>
+                    <p>
+                        Registration to this forum is free! We do insist that you abide by the rules and policies detailed
+                        below. If you agree to the terms, please check the 'I agree' checkbox and press the 'Complete Registration' button below.
+                        If you would like to cancel the registration, click <a href="forum.php">here</a>
+                        to return to the forums index.
+                    </p>
+                    <p><strong>Forum Rules</strong></p>
+
+                    <p>Registration to this forum is free! We do insist that you abide by the rules and policies detailed below. If you have read over and agree to the terms, please check the appropriate box in the app.</p>
+
+                    <p>Although the administrators and moderators of this forum will attempt to keep all objectionable messages off this forum, it is impossible for us to review all messages. All messages express the views of the author, and the owners of the forum will not be held responsible for the content of any message.</p>
+
+                    <p>Below are the Main Forum Rules. More specific, detailed rules are described within Stickies, Staff posts, Moderator posts, and warnings/infractions that may be received.</p>
+
+                    <p>We encourage open and friendly discussion of Supercell games and Community. Moderators and Staff have final decisions on all matters, and are here to make sure that the Supercell Community remains a friendly, fun place appropriate for players of all backgrounds, ages and groups. We reserve the right to modify or amend these rules at any time, and enforce them as we see fit. It is the forum member's responsibility to stay up to date on forum rules. Users who violate forum rules will be banned and offending content will be removed at any time, without warning. The length of the ban will be based on the severity and/or frequency of the violation. Users banned from the forums are still entitled to support from our Player Support team.</p>
+
+                    <p>Please note that we update the forum rules when needed, and though you may not have agreed to the updated rules when signing up to the forums, you are agreeing to all updated or added rules by creating an account.</p>
+
+                    <p>Here are a set of rules for the forums. All members should read these before they begin posting:</p>
+
+                    <ol>
+                        <li>
+                            We will not tolerate rudeness, insulting posts, personal attacks, harassment, name &amp; shame, or purposeless inflammatory posts. Moderator and Staff decisions are final in these matters. Any abuse towards our Staff, Moderators and/or admins in any form will not be tolerated.
+                        </li>
+                        <li>
+                            We will not tolerate inappropriate, sexual, vulgar, discriminatory or offensive language of any sort, this includes simulated, insinuated and abbreviated swearing. This is a family friendly forum. Moderators and admins have a final say in what is and isn't inappropriate.
+                        </li>
+                        <li>
+                            Multiple or repeated posting in order to increase your post count is not allowed. Also, please refrain from posting spam, like nonsense.
+                        </li>
+                        <li>
+                            Multiple or repeated posting of the same thread or topic is not allowed. If a thread or reply has been trashed or closed, you should not post the same thread again. "Bumping" a thread is also prohibited. There is a single exception to allow you to bump your sole recruitment thread at most once per day. This means 24 hours must have elapsed since the last post in the thread before it may be bumped.
+                        </li>
+                        <li>
+                            Do not attempt to claim to represent or speak on behalf of Supercell if you are not a Moderator or Supercell employee. Do not deliberately and/or maliciously spread false information about Supercell games, moderators or employees.
+                        </li>
+                        <li>
+                            Discussion or promotion of products, free gem, or third party gem sites, competitors' games, illegal activities, drug references, emulators, music/intellectual property piracy is strictly prohibited. This includes any discussions on how to run any Supercell games outside officially supported platforms.
+                        </li>
+                        <li>
+                            Discussing the abuse or exploitation of service platform, payment, refund, rating or similar systems is strictly prohibited.
+                        </li>
+                        <li>
+                            Users are permitted only one forum account. Creating multiple accounts will result in a permanent ban of all accounts.
+                        </li>
+                        <li>
+                            These forums are English only. You may create Groups for your clan/group where you are more than welcome to use any language. The same rules apply to groups that apply to the forums!
+                        </li>
+                        <li>
+                            Do not advertise, promote or link to user-run contests related to Supercell Games without prior written consent from Supercell.
+                        </li>
+                        <li>
+                            You may not use animated GIFs in posts, as your avatar or in your signature.
+                        </li>
+                        <li>
+                            We do not remove posts or accounts on request.
+                        </li>
+                        <li>
+                            Only report posts that you are sure violate forum rules or contain questionable content. Do not spam or overuse the report tool (what constitutes spam/overuse is up to interpretation of Moderators/Supercell employees) as this distracts from the productivity of our Moderators and employees and can result in a ban.
+                        </li>
+                        <li>
+                            We do not monitor private messages, but we do investigate all allegations of PM abuse.  Forum rules apply to private messages as well.
+                        </li>
+                        <li>
+                            Always read stickies before posting. Always post in the proper sub forums. Not doing so can result in your post being trashed, moved or closed.
+                        </li>
+                        <li>
+                            If you are banned from the game temporarily, you still have a right to have a forum account. If you are permanently banned from the game, you will also be permanently banned from the forums.
+                        </li>
+                        <li>
+                            Staff members and moderators may ban forum members without prior notice if they detect [URL="#"]toxic behaviour[/URL].
+                        </li>
+                        <li>
+                            You are responsible for abiding by Moderator and Staff warnings and infractions against you, within a thread or made via PM. Ignoring warnings and/or infractions given to yourself or other forum members can result in further infractions or a ban of your forum account. Remember, all mod and staff decisions are final.
+                        </li>
+                        <li>
+                            You may not discuss publicly any (disciplinary) actions taken by staff, moderators or support such as banning, closing forum threads, deleting forum posts / threads etc. Also, posting publicly any private messages / emails, regardless of topic, you have received from either staff, moderators or support is prohibited.
+                        </li>
+                        <li>
+                            Any deliberate manipulation or targeting using the reputation system is strictly forbidden, and may result in a permanent ban.
+                        </li>
+                        <li>
+                            Do not create deliberately provocative or insincere posts, or use click-bait titles. Trolling is always prohibited.
+                        </li>
+                        <li>Old threads should not be resurrected without sufficient cause or significant new information. Please do not necro old posts.</li>
+                    </ol>
+
+                    <p>By agreeing to these rules, you warrant that you will not post any messages that are obscene, vulgar, sexually-oriented, hateful, threatening, or otherwise violative of any laws.</p>
+
+                    <p>The owners of the forum reserve the right to remove, edit, move or close any thread for any reason.</p>
+
+                    <p>By creating an account on this forum, you are also stating that you are at least 13 years of age.</p>
+
+                    <p>Your use of the forums is subject to the Terms of University</p>
+                </div>
+                <br />
+                @Html.CheckBox("Condition", false, new { @id = "chkcondition" })
+                <label class="control-label col-md-8">I have read and accept the <a href="#">Terms and Conditions</a></label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" onclick="javascript:return AcceptTermAndcondition();" />
+                <script language="javascript" type="text/javascript">
+                    function AcceptTermAndcondition() {
+                        if ($("#chkcondition").is(':checked')) {
+                            return true;
+                        }
+                        else {
+                            alert("Please accept term and condition");
+                            return false;
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
 }
