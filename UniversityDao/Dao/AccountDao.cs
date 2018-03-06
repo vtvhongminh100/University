@@ -16,6 +16,18 @@ namespace UniversityDao.Dao
             Account account = db.Accounts.SingleOrDefault(x => x.Username.Equals(userName));
             return account;
         }
+
+        public Account GetUserByID(int id)
+        {
+            Account account = db.Accounts.Find(id);
+            return account; 
+        }
+
+        public List<Account> GetAllAccount()
+        {
+            return db.Accounts.ToList();  
+        }
+
         public int LoginCheck(AccountModel account)
         {
             int status = 0;
@@ -43,6 +55,59 @@ namespace UniversityDao.Dao
                 }
             }
             return status;
+        }
+
+        public bool CreateAccount(Account model)
+        {
+            try
+            {
+                db.Accounts.Add(model);
+                db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+
+            }
+            return false;
+        }
+
+        public bool EditAccount(Account model)
+        {
+            try
+            {
+                var item = db.Accounts.Find(model.UserID);
+                item.Username = model.Username;
+                item.Status = model.Status;
+                item.Role = model.Role;
+                item.Phone = model.Role;
+                item.Password = model.Password;
+                item.FullName = model.FullName;
+                item.Email = model.Email;
+                item.Address = model.Address;
+                db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+
+            }
+            return false;
+        }
+
+        public bool DeleteAccount(Account model)
+        {
+            try
+            {
+                db.Accounts.Remove(model);
+                db.SaveChanges();
+                return true;
+            }
+            catch
+            {
+
+            }
+            return false;
         }
     }
 }
