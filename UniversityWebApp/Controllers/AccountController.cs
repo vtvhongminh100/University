@@ -7,11 +7,13 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Net.Mail;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using UniversityDao.Dao;
 using UniversityDao.EF;
+using System.Configuration;
 
 namespace UniversityWebApp.Controllers {
     public class AccountController : Controller {
@@ -45,7 +47,7 @@ namespace UniversityWebApp.Controllers {
                 string extension = Path.GetExtension(file.FileName);
                 string fName = today + "-" + guid + extension;
                 var allowedExtensions = new[] { ".png", ".jpg", ".gif" };
-                if (allowedExtensions.Contains(extension.ToLower()) && file.ContentLength <= (1 * 1024) && file.ContentLength > 0) {
+                if (allowedExtensions.Contains(extension.ToLower()) && file.ContentLength <= (1 * 1024000) && file.ContentLength > 0) {
 
                     var originalDirectory = new DirectoryInfo(string.Format("{0}Images\\", Server.MapPath(@"\")));
 
@@ -117,7 +119,7 @@ namespace UniversityWebApp.Controllers {
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(AccountModel model) {
+        public ActionResult Login(LoginModel model) {
             Session.Clear();
             if (ModelState.IsValid) {
                 AccountDao dao = new AccountDao();
@@ -139,5 +141,74 @@ namespace UniversityWebApp.Controllers {
             }
             return View("Index");
         }
+        public ActionResult Registry()
+        {
+            return View("Registry");
+        }
+        //
+        // POST: /Account/Register
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Registration(AccountModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                AccountDao dao = new AccountDao();
+                Account account = dao.GetUserByUserName(model.Username);
+                if (account != null)
+                {
+                    ModelState.AddModelError("", "This account is existing !!!");
+                }
+                else
+                {
+                    int accountId = dao.Registry(model);
+                    if (accountId != 0)
+                    {
+                        MailMessage m = new MailMessage(
+                        new MailAddress(ConfigurationManager.AppSettings["mailAccount"], "Web Registration"),
+                        new MailAddress(model.Email));
+                        m.Subject = "Email confirmation";
+                        m.Body = string.Format("Dear {0}<BR/>Thank you for your registration, please click on the below link to complete your registration:<BR/> <a href=\"{1}\" title=\"User Email Confirm\">Verify now</a>", model.Username, Url.Action("ConfirmEmail", "Account", new { AccountId = accountId }, Request.Url.Scheme));
+                        m.IsBodyHtml = true;
+                        SmtpClient smtp = new SmtpClient("smtp.gmail.com");
+                        smtp.Credentials = new NetworkCredential(
+                            ConfigurationManager.AppSettings["mailAccount"],
+                            ConfigurationManager.AppSettings["mailPassword"]
+                            );
+                        smtp.EnableSsl = true;
+                        smtp.Send(m);
+                        return RedirectToAction("Confirm", "Account", new { Email = model.Email });
+                    }
+                    else
+                    {
+                        ModelState.AddModelError("", "The account did not create");
+                    }
+                }
+
+            }
+            return View("Registry");
+        }
+        [AllowAnonymous]
+        public ActionResult Confirm(string Email)
+        {
+            ViewBag.Email = Email;
+            return View();
+        }
+        // GET: /Account/ConfirmEmail
+        [AllowAnonymous]
+        public ActionResult ConfirmEmail(int AccountId)
+        {
+            AccountDao dao = new AccountDao();
+            bool x = dao.UpdateEmailConfirmed(AccountId);
+            if (x == true)
+            {
+                return View("Thanks");
+            }
+            else
+            {
+                return View("Error");
+            }
+        }
+
     }
 }

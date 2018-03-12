@@ -27,6 +27,8 @@ namespace UniversityDao.EF
         [StringLength(50)]
         public string Email { get; set; }
 
+        public bool? EmailConfirmed { get; set; }
+
         [StringLength(20)]
         public string Phone { get; set; }
 

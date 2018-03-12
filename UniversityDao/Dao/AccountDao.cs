@@ -23,7 +23,7 @@ namespace UniversityDao.Dao {
             return db.Accounts.ToList();
         }
 
-        public int LoginCheck(AccountModel account) {
+        public int LoginCheck(LoginModel account) {
             int status = 0;
             var result = db.Accounts.SingleOrDefault(x => x.Username == account.Username);
             if (result == null) {
@@ -93,6 +93,38 @@ namespace UniversityDao.Dao {
 
             }
             return false;
+        }
+
+        public int Registry(AccountModel model)
+        {
+            Account account = new Account();
+            account.Password = model.Password;
+            account.Username = model.Username;
+            account.Email = model.Email;
+            account.FullName = model.FullName;
+            account.Address = model.Address;
+            account.Phone = model.Phone;
+            account.Status = true;
+            account.Role = "STU";
+            account.EmailConfirmed = false;
+            db.Accounts.Add(account);
+            db.SaveChanges();
+            return account.UserID;
+        }
+
+        public bool UpdateEmailConfirmed(int userId)
+        {
+            try
+            {
+                Account account = db.Accounts.SingleOrDefault(x => x.UserID == userId);
+                account.EmailConfirmed = true;
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }
