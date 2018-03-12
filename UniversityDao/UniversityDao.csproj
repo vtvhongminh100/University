@@ -55,8 +55,11 @@
     <Compile Include="Dao\AccountDao.cs" />
     <Compile Include="Dao\CateGrIdeaDao.cs" />
     <Compile Include="Dao\IdeaCategoryDao.cs" />
+    <Compile Include="Dao\IdeaDao.cs" />
     <Compile Include="EF\Account.cs" />
     <Compile Include="EF\CategoryGroupIdea.cs" />
+    <Compile Include="EF\Emotion.cs" />
+    <Compile Include="EF\EmotionLog.cs" />
     <Compile Include="EF\Idea.cs" />
     <Compile Include="EF\IdeaCategory.cs" />
     <Compile Include="EF\UniversityDbContext.cs" />

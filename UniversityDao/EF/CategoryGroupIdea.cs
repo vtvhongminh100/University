@@ -17,8 +17,6 @@ namespace UniversityDao.EF
         [StringLength(250)]
         public string CateGrIdeaDes { get; set; }
 
-   
-
         public DateTime? CreatedDate { get; set; }
 
         public DateTime? ModifiedDate { get; set; }

@@ -10,3 +10,8 @@ C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\Model\obj\Debug\Mode
 C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\Model\obj\Debug\ModelPr.csproj.CoreCompileInputs.cache
 C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\Model\obj\Debug\Model.dll
 C:\Of mac\StudyinClass\Study Sem 6\Web\Code\University-Ver3\Model\obj\Debug\Model.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\Ver4\University\Model\bin\Debug\Model.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\Ver4\University\Model\bin\Debug\Model.pdb
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\Ver4\University\Model\obj\Debug\ModelPr.csproj.CoreCompileInputs.cache
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\Ver4\University\Model\obj\Debug\Model.dll
+C:\Of mac\StudyinClass\Study Sem 6\Web\Code\Ver4\University\Model\obj\Debug\Model.pdb

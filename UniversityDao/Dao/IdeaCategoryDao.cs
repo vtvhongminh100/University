@@ -76,6 +76,12 @@ namespace UniversityDao.Dao
             return result;
 
         }
+        public List<IdeaCategory> GetIdeaCateByGr(int grId)
+        {
+            var result = db.IdeaCategories.Where(x => x.IdeaCateStatus == true && x.GroupCateIdea == grId);
+            return result.ToList();
+
+        }
         public bool DeleteIdeaCategory(int id)
         {
             try

@@ -14,9 +14,10 @@ namespace UniversityDao.EF
 
         public virtual DbSet<Account> Accounts { get; set; }
         public virtual DbSet<CategoryGroupIdea> CategoryGroupIdeas { get; set; }
+        public virtual DbSet<Emotion> Emotions { get; set; }
+        public virtual DbSet<EmotionLog> EmotionLogs { get; set; }
         public virtual DbSet<Idea> Ideas { get; set; }
         public virtual DbSet<IdeaCategory> IdeaCategories { get; set; }
-        public virtual DbSet<Comment> Comments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -33,11 +34,11 @@ namespace UniversityDao.EF
                 .IsUnicode(false);
 
             modelBuilder.Entity<Account>()
-                .Property(e => e.Role)
+                .Property(e => e.Gender)
                 .IsUnicode(false);
 
-            modelBuilder.Entity<Idea>()
-                .Property(e => e.IdeaEmotion)
+            modelBuilder.Entity<Account>()
+                .Property(e => e.Role)
                 .IsUnicode(false);
         }
     }

@@ -31,6 +31,12 @@ namespace UniversityDao.EF
         public string Phone { get; set; }
 
         [StringLength(20)]
+        public string Gender { get; set; }
+
+        [StringLength(100)]
+        public string Image { get; set; }
+
+        [StringLength(20)]
         public string Role { get; set; }
 
         public bool? Status { get; set; }

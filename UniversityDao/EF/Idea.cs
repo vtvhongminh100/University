@@ -12,22 +12,21 @@ namespace UniversityDao.EF
     {
         public int IdeaID { get; set; }
 
-        [Column(TypeName = "ntext")]
-        [Required]
-        [StringLength(20)]
+        [StringLength(350)]
+        public string IdeaTitle { get; set; }
         [AllowHtml]
+        [Column(TypeName = "ntext")]
         public string IdeaContent { get; set; }
 
-        [Required]
         [StringLength(500)]
         public string IdeaDescription { get; set; }
-
-        [StringLength(20)]
-        public string IdeaEmotion { get; set; }
-
+        [StringLength(200)]
+        public string FileSP { get; set; }
         public int? IdeaCategory { get; set; }
 
         public int? IdeaViewCount { get; set; }
+
+        public bool AllowAnonymous { get; set; }
 
         public DateTime? CreatedDate { get; set; }
 
@@ -39,9 +38,8 @@ namespace UniversityDao.EF
         [StringLength(250)]
         public string ModifiedBy { get; set; }
 
-        [Required]
         public DateTime? ClosedDate { get; set; }
 
-        public bool? IdeaStatus { get; set; }
+        public bool IdeaStatus { get; set; }
     }
 }
