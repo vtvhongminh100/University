@@ -20,6 +20,9 @@
         }
     </style>
 </head>
+@{
+    var session = (ModelPr.ModelViews.UserLogin)Session[ModelPr.CommonClass.CommonCls.User_session];
+}
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Navigation -->
     <div class="container" id="mainmenu">
@@ -31,15 +34,24 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sign Up</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Index","Account", new { area =""})">Log In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="@Url.Action("Create","Ideas")">Post an idea</a>
-                        </li>
+                        @if (session == null) {
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sign Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Index","Account", new { area =""})">Log In</a>
+                            </li>
+                        } else {
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("MyProfile","Account")">Hello: @session.Username</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="@Url.Action("Logout","Account", new { area =""})">Log out</a>
+                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("PostIdea", "Student/Idea")">Post an idea</a>
+                                </li>
+                        }
                     </ul>
                 </div>
             </div>
