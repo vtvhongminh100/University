@@ -95,7 +95,7 @@ namespace UniversityDao.Dao {
             return false;
         }
 
-        public int Registry(AccountModel model)
+        public int Registry(Account model)
         {
             Account account = new Account();
             account.Password = model.Password;
